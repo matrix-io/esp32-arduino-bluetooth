@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/sam/.platformio/penv/bin:/home/sam/.platformio/penv:/home/sam/.nvm/versions/node/v12.4.0/bin:/home/sam/.cargo/bin:/home/sam/esp/xtensa-esp32-elf/bin:/home/sam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sam/.platformio/penv/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
