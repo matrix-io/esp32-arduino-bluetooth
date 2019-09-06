@@ -42,7 +42,8 @@ Click on Sketch -> Export Compiled Binary. This will create a binary (.bin) file
 
 Connect your voice to the Raspberry Pi. Go on your Pi's terminal and type the following commands to erase any previous programs. This step must be performed on every re-flashing of the ESP32.
 ```
-voice_esp32_enableesptool.py --chip esp32 --port /dev/ttyS0 --baud 115200 --before default_reset --after hard_reset erase_flashsudo reboot  
+sudo voice_esp32_enable
+esptool.py --chip esp32 --port /dev/ttyS0 --baud 115200 --before default_reset --after hard_reset erase_flashsudo reboot  
 ```
 Go on your PC's terminal and navigate to esp32-arduino-bluetooth/bluetooth. 
 ```
