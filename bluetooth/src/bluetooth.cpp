@@ -1,3 +1,6 @@
+#include <Arduino.h>  // This must be included first!
+
+#include "MATRIXVoiceOTA.h"
 #include <BLEDevice.h>
 #include <BLEUtils.h>
 #include <BLEServer.h>
